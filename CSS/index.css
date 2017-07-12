@@ -1,0 +1,253 @@
+#box-bg {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 998;
+}
+#mask {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin:-125px 0 0 -200px;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    z-index: 999;
+}
+#mask span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 18px;
+    height: 18px;
+    font:16px/20px "Microsoft YaHei";
+    cursor: pointer;
+}
+.banner {
+    position: relative;
+}
+
+.banner a {
+    display: block;
+    width: 100%;
+    height: 604px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/banner.jpg") no-repeat center top;
+}
+
+.main {
+    position: relative;
+}
+
+.main .slider {
+    position: relative;
+    float: left;
+    width: 730px;
+    margin: 12px 0 0 220px;
+}
+
+.main .news {
+    float: right;
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    margin-top: 12px;
+}
+
+.main .slider .circle {
+    position: absolute;
+    top: 427px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.slider .circle li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 0 2px;
+    background-color: #3E3E3E;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.circle li a {
+    display: block;
+    color: #fff;
+    line-height: 18px;
+}
+
+.circle li a:hover {
+    background-color: #B61B1F;
+    border-radius: 50%;
+}
+
+.slider .arrow .arrow-l,
+.slider .arrow .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    color: #fff;
+    font: 500 15px/62px "SimSun";
+    text-align: center;
+    top: 196px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.slider .arrow .arrow-l {
+    left: 0;
+}
+
+.slider .arrow .arrow-r {
+    right: 0;
+}
+
+.main .news {
+    width: 248px;
+    overflow: hidden;
+}
+
+.news .jd-news .dt,
+.news .lifeservice .dt {
+    height: 43px;
+}
+
+.jd-news .dt h3,
+.lifeservice .dt h3 {
+    float: left;
+    padding-left: 14px;
+    color: #666;
+    font: 14px/43px "Microsoft YaHei";
+}
+
+.jd-news .dt a {
+    float: right;
+    margin-right: 16px;
+    color: #666;
+    font: 12px/43px "SimSun";
+}
+
+.jd-news .dt a:hover {
+    color: #C81623;
+}
+
+.lifeservice .dt h3 {
+    width: 248px;
+    border-bottom: 1px dotted #E8E8E7;
+}
+
+.jd-news .dd {
+    border-top: 1px dotted #E8E8E7;
+    border-bottom: 1px dashed #E8E8E7;
+}
+
+.jd-news .dd ul {
+    height: 148px;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+.dd ul li a,
+.dd ul li span {
+    color: #666;
+    font: 14px/28px "Microsoft YaHei";
+}
+
+.dd ul li span {
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.lifeservice .dd ul {
+    width: 252px;
+}
+
+.lifeservice .dd li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 68px;
+    border: 1px solid #E4E4E4;
+    margin: -1px 0 0 -1px;
+}
+
+.lifeservice .lifeservice-icon11 {
+    background: url("../images/song.png") no-repeat right top;
+}
+
+.lifeservice .dd a {
+    display: block;
+    height: 68px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.lifeservice .dd span:hover {
+    color: #C81623;
+}
+
+.lifeservice .dd span {
+    color: #666;
+    font: 400 13px/13px "SimSun";
+}
+
+.lifeservice .dd i {
+    position: absolute;
+    left: 50%;
+    margin-left: -13.5px;
+    top: 10px;
+    width: 25px;
+    height: 24px;
+    background: url("../images/lifeservice-icon.png") no-repeat 0 0;
+}
+.today {
+    position: relative;
+    margin: 10px auto;
+}
+
+.today .night .night-l {
+    float: left;
+}
+
+.today .night .night-r {
+    position: relative;
+    float: right;
+    width: 1000px;
+}
+
+.night .night-r ul {
+    width: 500%;
+}
+
+.night-r ul li {
+    float: left;
+    margin-right: 1px;
+}
+
+.night-r .arrow .arrow-l,
+.night-r .arrow .arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 28px;
+    height: 62px;
+    color: #fff;
+    font: 500 15px/62px "SimSun";
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.night-r .arrow .arrow-l {
+    left: 0;
+}
+
+.night-r .arrow .arrow-r {
+    right: 0;
+}
